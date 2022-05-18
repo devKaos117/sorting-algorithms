@@ -12,52 +12,69 @@ def selection_sort(arr):
     return arr
 #Insertion sort
 def insertion_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Quick sort
 def quick_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Merge sort
 def merge_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Heap sort
 def heap_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Radix sort (LSD)
 def radixLSD_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Radix sort (MSD)
 def radixMSD_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #gcc std::sort
 def gcc_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #gcc std::stable_sort
 def gcc_stable_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Shell sort
 def shell_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Bubble sort
 def bubble_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Cocktail sort
 def cocktail_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Gnome sort
 def gnome_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Optimized Gnome sort
 def gnome_optimized_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Bitonic sort
 def bitonic_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Bogo sort
 def bogo_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Comb sort
 def comb_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
 #Pigeonhole
 def pigeonhole_sort(arr):
-    pass
+    if type(arr) is not list:
+        raise Exception("Parameter must be a list")
