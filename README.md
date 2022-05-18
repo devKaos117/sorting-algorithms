@@ -14,6 +14,8 @@ Rebuilding the following sorting algorithms:
 *Bubble sort
 *Cocktail sort
 *Gnome sort
+*Optimized Gnome sort
 *Bitonic sort
 *Bogo sort
 *Comb sort
+*Pigeonhole
