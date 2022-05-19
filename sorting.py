@@ -14,6 +14,14 @@ def selection_sort(arr):
 def insertion_sort(arr):
     if type(arr) is not list:
         raise Exception("Parameter must be a list")
+    for idx in range(1,len(arr)):
+        x = 0
+        if arr[idx] < arr[idx - 1] and x > 0:
+            x = idx
+            while arr[x] < arr[x-1]:
+                arr[x], arr[x - 1] = arr[x - 1], arr[x]
+                x -= 1
+    return arr
 #Quick sort
 def quick_sort(arr):
     if type(arr) is not list:
